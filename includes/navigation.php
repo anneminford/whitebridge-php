@@ -14,11 +14,14 @@
 				</div>	
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
-						<li class="active">
-							<a href="index.html" title="Home"><span data-hover="Home">Home</span></a>
-						</li>
-						<li>
-							<a href="prices.html" title="Prices"><span data-hover="Prices">Prices</span></a>
+					<li <?=echoActiveClassIfRequestMatches("home")?>>
+        				<a href="home">Home</a>
+        			</li>
+						<!-- <li class="active">
+							<a href="home" title="Home"><span data-hover="Home">Home</span></a>
+						</li> -->
+						<li <?=echoActiveClassIfRequestMatches("prices")?>>
+							<a href="prices" title="Prices"><span data-hover="Prices">Prices</span></a>
 						</li>
 						<li>
 							<a href="about.html" title="About us"><span data-hover="About us">About us</span></a>

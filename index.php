@@ -34,6 +34,16 @@
 	
 			include 'includes/footer.php';
 		?>
+
+		<?php 
+			function echoActiveClassIfRequestMatches($requestUri)
+			{
+			    $current_file_name = basename($_SERVER['REQUEST_URI']);
+
+			    if ($current_file_name == $requestUri)
+			        echo 'class="active"';
+			}
+		?>
 		
 		<!-- Javascript plugins -->
 		<script src="https://code.jquery.com/jquery.js"></script>

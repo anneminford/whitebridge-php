@@ -40,9 +40,9 @@ $(function() {
 		$("#tabs").tabs();
 	}
 	
-	if ($("#accordion").length > 0){
-		$("#accordion").accordion();
-	}
+	// if ($("#accordion").length > 0){
+	// 	$("#accordion").accordion();
+	// }
 	
 	if ($("#map").length > 0){
 		$('#map').gmap3({
