@@ -35,14 +35,28 @@ $(function() {
 			}
 		});
 	}
+
+	var currentpage = window.location.pathname.split("/").slice(-1)[0];
+	// console.log(currentpage);
+
+	if (currentpage == 'home' ){
+		$('body').removeClass('contentpage');
+	} 
+
+	if (currentpage != 'home' ){
+		$('body').addClass('contentpage');
+		$('.navbar').removeClass('affix-top');
+		$('.navbar').addClass('inner-pages').addClass('affix');
+	} 
+
 	
 	if ($("#tabs").length > 0){
 		$("#tabs").tabs();
 	}
 	
-	// if ($("#accordion").length > 0){
-	// 	$("#accordion").accordion();
-	// }
+	if ($("#accordion").length > 0){
+		$("#accordion").accordion();
+	}
 	
 	if ($("#map").length > 0){
 		$('#map').gmap3({

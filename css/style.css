@@ -241,13 +241,17 @@ img {
 
 /** NAV ON SCROLL  **/
 
+.contentpage .navbar-default .navbar-nav li a {
+	color: #777;
+}
+
 .homepage .affix-top, .contentpage .affix-top {
 	transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 }
 
-.homepage .affix, .contentpage .affix {
+.homepage .affix, .contentpage .affix, .contentpage .affix-top {
 	background: rgba(255, 255, 255, .95);
 	border-bottom: 1px solid #e5e5e5;
 	transition: all 0.5s ease;
@@ -255,7 +259,7 @@ img {
 	-moz-transition: all 0.5s ease;
 }
 
-.homepage .affix  h1 a.navbar-brand, .contentpage .affix  h1 a.navbar-brand {
+.homepage .affix  h1 a.navbar-brand, .contentpage .affix  h1 a.navbar-brand, .contentpage .affix-top  h1 a.navbar-brand {
 	color: #6d6d6d;
 }
 
@@ -263,20 +267,30 @@ img {
 	color: #65c178;
 }
 
+.contentpage .affix .nav li a.contact-link, .contentpage .affix-top .nav li a {
+	color: #65c178;
+}
+
 .homepage .affix  h1 a.navbar-brand span, .contentpage .affix  h1 a.navbar-brand span {
 	color: #adadad;
 }
 
-.homepage .affix .btn, .contentpage .affix .btn {
+.homepage .affix .btn, .contentpage .affix .btn, .contentpage .affix-top .btn {
 	color: #65c178;
 	border: 2px solid #65c178;
 }
 
-.homepage .affix .nav li a, .contentpage .affix .nav li a:before, .contentpage .affix .nav li a, .contentpage .affix .nav li a:before {
+.contentpage .affix .btn a, .contentpage .affix-top .btn a {
+	color: #65c178;
+}
+
+.homepage .affix .nav li a, .contentpage .affix .nav li a:before, .contentpage .affix .nav li a, .contentpage .affix .nav li a:before,
+.contentpage .affix-top .nav li a:before, .contentpage .affix-top .nav li a, .contentpage .affix-top .nav li a:before {
 	color: #6d6d6d;
 }
 
-.homepage .affix .nav li a:hover, .contentpage.affix .nav li.active a, .contentpage .affix .nav li a:hover, .contentpage .affix .nav li.active a {
+.homepage .affix .nav li a:hover, .contentpage.affix .nav li.active a, .contentpage .affix .nav li a:hover, .contentpage .affix .nav li.active a,
+.contentpage .affix-top .nav li.active a, .contentpage .affix-top .nav li a:hover, .contentpage .affix-top .nav li.active a {
 	color: #65c178;
 }
 

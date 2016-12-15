@@ -52,5 +52,6 @@
 		<script src="js/jquery.stellar.min.js"></script>
 		<script src="js/ekkoLightbox.js"></script>
 		<script src="js/custom.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
 	</body>
 </html>
