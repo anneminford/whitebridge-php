@@ -21,7 +21,7 @@
 							<p>Wet/dry food included</p>
 							<p>3 walks daily</p>
 							<p>Social interaction</p>
-							<form method="get" action="index.html">
+							<form method="get" action="contact">
 								<button type="submit" class="btn btn-default btn-green">Book now</button>
 							</form>
 						</div>
@@ -34,7 +34,7 @@
 							<p>Wet/dry food included</p>
 							<p>3 walks daily</p>
 							<p>Social interaction</p>
-							<form method="get" action="index.html">
+							<form method="get" action="contact">
 								<button type="submit" class="btn btn-default btn-green">Book now</button>
 							</form>
 						</div>
@@ -47,7 +47,7 @@
 							<p>Wet/dry food included</p>
 							<p>3 walks daily</p>
 							<p>Social interaction</p>
-							<form method="get" action="index.html">
+							<form method="get" action="contact">
 								<button type="submit" class="btn btn-default btn-green">Book now</button>
 							</form>
 						</div>
@@ -60,8 +60,8 @@
 							<p>Wet/dry food included</p>
 							<p>3 walks daily</p>
 							<p>Social interaction</p>
-							<form method="get" action="index.html">
-								<button type="submit" class="btn btn-default btn-green">Book now</button>
+							<form method="get" action="contact">
+								<button type="submit" class="btn btn-default btn-green">Contact us</button>
 							</form>
 						</div>
 					</div>
@@ -84,69 +84,25 @@
 						<div>
 							<p>IS THIS CORRECT Breakfast and dinner are included in the price. We use a good quality dry food, however owners are welcome to supply their own food if that is preferred.</p>
 						</div>
-						<h4>Accordion title 2</h4>
+						<h4>Activity</h4>
 						<div>
-							<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+							<p>PLAYTIME SCHEDULE IN HERE</p>
 						</div>
-						<h4>Accordion title 3</h4>
+						<h4>Kennels</h4>
 						<div>
-							<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+							<p>DESCRIPTION OF KENNEL BEDDING, HEATED, CLEANED</p>
 						</div>
-						<h4>Accordion title 4</h4>
+						<h4>Booking Terms</h4>
 						<div>
-							<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+							<p>DEPOSIT? CANCELLATIONS?</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!-- Content end -->
-		<!-- Carousel -->
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 centered">
-					<h3><span>A look inside our kennels</span></h3>
-					<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
-				</div>
-			</div>
-		</div>
-		<div id="c-carousel">
-			<div id="wrapper">
-				<div id="carousel">
-					<div>
-						<a href="images/dog-1.png" title="Dog" data-hover="Sandy the west highland terrier" data-toggle="lightbox" class="lightbox">
-							<img src="images/dog-1.png" alt="Dog" />
-						</a>
-					</div>
-					<div>
-						<a href="images/dog-2.png" title="Dog" data-hover="Marty the yorkshire terrier" data-toggle="lightbox" class="lightbox">
-							<img src="images/dog-2.png" alt="Dog" />
-						</a>
-					</div>
-					<div>
-						<a href="images/dog-3.png" title="Dog" data-hover="Kyla the bull terrier" data-toggle="lightbox" class="lightbox">
-							<img src="images/dog-3.png" alt="Dog" />
-						</a>
-					</div>
-					<div>
-						<a href="images/dog-1.png" title="Dog" data-hover="Marty the yorkshire terrier" data-toggle="lightbox" class="lightbox">
-							<img src="images/dog-1.png" alt="Dog" />
-						</a>
-					</div>
-					<div>
-						<a href="images/dog-2.png" title="Dog" data-hover="Sandy the west highland terrier" data-toggle="lightbox" class="lightbox">
-							<img src="images/dog-2.png" alt="Dog" />
-						</a>
-					</div>
-					<div>
-						<a href="images/dog-3.png" title="Dog" data-hover="Kyla the bull terrier" data-toggle="lightbox" class="lightbox">
-							<img src="images/dog-3.png" alt="Dog" />
-						</a>
-					</div>
-				</div>
-				<div id="pager" class="pager"></div>
-			</div>
-		</div>
-		<!-- Carousel end -->
+		<?php  
+			include 'kennels.php';
+		?>
 		
 		

@@ -5,8 +5,8 @@
 					<div class="col-md-6">
 						<h6>You may need this</h6>
 						<ul>
-							<li><a href="#" title="">Home</a></li>
-							<li><a href="#" title="">Contact us</a></li>
+							<li><a href="home" title="">Home</a></li>
+							<li><a href="contact" title="">Contact us</a></li>
 							<li><a href="#" title="">FAQ</a></li>
 							<li><a href="#" title="">Terms &amp; conditions</a></li>
 							<li><a href="#" title="">Privacy policy</a></li>

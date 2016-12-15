@@ -8,23 +8,20 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<h1><a class="navbar-brand" href="index.html"><strong>White Bridge</strong><br />
+					<h1><a class="navbar-brand" href="home"><strong>White Bridge</strong><br />
 						<span data-hover="Kennels">Boarding Kennels</span>
 					</a></h1>
 				</div>	
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
-					<li <?=echoActiveClassIfRequestMatches("home")?>>
-        				<a href="home">Home</a>
-        			</li>
-						<!-- <li class="active">
-							<a href="home" title="Home"><span data-hover="Home">Home</span></a>
-						</li> -->
+						<li <?=echoActiveClassIfRequestMatches("home")?>>
+	        				<a href="home">Home</a>
+	        			</li>
 						<li <?=echoActiveClassIfRequestMatches("prices")?>>
 							<a href="prices" title="Prices"><span data-hover="Prices">Prices</span></a>
 						</li>
-						<li>
-							<a href="about.html" title="About us"><span data-hover="About us">About us</span></a>
+						<li <?=echoActiveClassIfRequestMatches("about")?>>
+							<a href="about" title="About us"><span data-hover="About us">About us</span></a>
 						</li>
 						<li class="dropdown">
 							<a href="services.html" class="dropdown-toggle" data-toggle="dropdown"><span data-hover="Services">Services</span> <b class="caret"></b></a>
@@ -51,7 +48,7 @@
 						</li> -->
 						<li class="purchase-btn">
 							<form method="get" action="index.html">
-								<button type="submit" class="btn btn-default"><a href="contact.html" title="Contact us" class="contact-link">Contact us</a></button>
+								<button type="submit" class="btn btn-default"><a href="contact" title="Contact us" class="contact-link">Contact us</a></button>
 							</form>
 						</li>
 					</ul>

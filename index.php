@@ -51,6 +51,8 @@
 		<script src="js/carouFredSel.js"></script>
 		<script src="js/jquery.stellar.min.js"></script>
 		<script src="js/ekkoLightbox.js"></script>
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyCegd7FwEL23TPEglCSHhSfKHhsnvayJHc&amp;language=en"></script>
+		<script src="js/gmap3.min.js"></script>
 		<script src="js/custom.js"></script>
 		<script src="js/jquery-ui.min.js"></script>
 	</body>

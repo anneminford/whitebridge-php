@@ -37,7 +37,7 @@ $(function() {
 	}
 
 	var currentpage = window.location.pathname.split("/").slice(-1)[0];
-	// console.log(currentpage);
+	console.log(currentpage + ' ' + 'hello');
 
 	if (currentpage == 'home' ){
 		$('body').removeClass('contentpage');
@@ -48,6 +48,8 @@ $(function() {
 		$('.navbar').removeClass('affix-top');
 		$('.navbar').addClass('inner-pages').addClass('affix');
 	} 
+
+
 
 	
 	if ($("#tabs").length > 0){
