@@ -55,5 +55,7 @@
 		<script src="js/gmap3.min.js"></script>
 		<script src="js/custom.js"></script>
 		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/validator.js"></script>
+        <script src="js/contact.js"></script>
 	</body>
 </html>
