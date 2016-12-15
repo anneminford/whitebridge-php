@@ -1,0 +1,19 @@
+RewriteEngine on
+#RewriteCond %{REQUEST_URI} !\.(css|jpg|gif|png|jar|js|html|htm|php)$
+RewriteRule ^alice.html$ bob.html
+
+#local access
+#RewriteRule ^([^/\.]+)/?$ index.php?page=$1 [L]
+
+#1and1 access
+RewriteRule ^([^/\.]+)/?$ /index.php?page=$1 [L]
+
+#RewriteRule ^page/([^/\.]+)/?$ app/index.php?page=$1 [L]
+
+#http://www.workingwith.me.uk/articles/scripting/mod_rewrite
+# this works http://localhost:81/tb-php/app/home
+
+
+RewriteRule ^(.+\.php)/?$ /index.php?url=$1 [QSA]
+
+RewriteRule ^(.+\.php)/?$ index.php?url=$1 [QSA]
