@@ -1,26 +1,26 @@
-    
-        <!-- Contact -->
+<html>
+    <head>
+        <title>Contact Form Tutorial by Bootstrapious.com</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+        <link href='custom.css' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+
         <div class="container">
+
             <div class="row">
-                <div class="col-md-12 centered">
-                    <h3><span>Contact us</span></h3>
-                    <p>We are located in High Bickington on the B3217 at the junction with Taylors Lane, opposite the Libbaton Golf Club</p>
-                    <p>Entrance to the kennels is past the house, down Taylors Lane on the right.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Contact end -->
-        <!-- Map -->
-        <div id="map" data-stellar-background-ratio=".3">
-        </div>
-        <!-- Map end -->
-        <!-- Content -->
-        <div class="container content">
-            <div class="row">
-                <div class="col-md-9">
+
+                <div class="col-lg-8 col-lg-offset-2">
+
+                    <h1>Contact form Tutorial from <a href="http://bootstrapious.com">Bootstrapious.com</a></h1>
+
+                    <p class="lead">This is a demo for our tutorial dedicated to crafting working Bootstrap contact form with PHP and AJAX background.</p>
 
 
-                    <form id="contact-form" method="post" action="form" role="form">
+                    <form id="contact-form" method="post" action="includes/contactme.php" role="form">
 
                         <div class="messages"></div>
 
@@ -79,19 +79,15 @@
 
                     </form>
 
-                </div>
-                <div class="col-md-3">
-                    <ul class="contact-info">
-                        <li class="telephone">
-                            01769 561094
-                        </li>
-                        <li class="address">
-                            High Bickington, Umberleigh, Devon
-                        </li>
-                        <li class="mail">
-                            whitebridgeboardingkennels.co.uk
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+                </div><!-- /.8 -->
+
+            </div> <!-- /.row-->
+
+        </div> <!-- /.container-->
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="validator.js"></script>
+        <script src="contact.js"></script>
+    </body>
+</html>
