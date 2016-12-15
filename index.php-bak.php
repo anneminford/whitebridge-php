@@ -19,18 +19,7 @@
 		<?php  
 			include 'includes/navigation.php';
 	 
-			// Set the default name 
-			$page = 'home'; 
-			// Specify some disallowed paths 
-			$disallowed_paths = array('header', 'footer'); 
-			if (!empty($_GET['page'])) { 
-			    $tmp_page = basename($_GET['page']); 
-			    // If it's not a disallowed path, and if the file exists, update $page 
-			    if (!in_array($tmp_page, $disallowed_paths) && file_exists("includes/{$tmp_page}.php")) 
-			        $page = $tmp_page; 
-			} 
-			// Include $page 
-			include("includes/$page.php"); 
+			include 'includes/home.php';
 	
 			include 'includes/footer.php';
 		?>
