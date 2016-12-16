@@ -3,8 +3,8 @@
             <div class="row">
                 <div class="col-md-12 centered">
                     <h3><span>Contact us</span></h3>
-                    <p>We are located in High Bickington on the B3217 at the junction with Taylors Lane, opposite the Libbaton Golf Club</p>
-                    <p>Entrance to the kennels is past the house, down Taylors Lane on the right.</p>
+                    <p>We are located in High Bickington on the B3217 at the junction with Taylors Lane, opposite the Libbaton Golf Club.
+                    The entrance to the kennels is past the house, down Taylors Lane on the right. ** NEED SOME BETTER DIRECTIONS **</p>
                 </div>
             </div>
         </div>
@@ -14,14 +14,18 @@
         </div>
         <!-- Map end -->
         <!-- Content -->
-        <div class="container content">
+        <div class="container content contact">
             <div class="row">
-                <div class="col-md-9">
-
-
+                <div class="col-md-6">
+                <h3>Send us a message...</h3>
                     <form id="contact-form" method="post" action="contactme.php" role="form">
 
                         <div class="messages"></div>
+                        <div class="row">
+                                <div class="col-md-12">
+                                    <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                                </div>
+                        </div>
 
                         <div class="controls">
 
@@ -69,16 +73,15 @@
                                     <input type="submit" class="btn btn-success btn-send" value="Send message">
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <p class="text-muted"><strong>*</strong> These fields are required. Contact form template by <a href="http://bootstrapious.com" target="_blank">Bootstrapious</a>.</p>
-                                </div>
-                            </div>
+                            
                         </div>
 
                     </form>
+                                    <?php  
+                    include 'openinghours.php';
+                ?>
 </div>
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <ul class="contact-info">
                         <li class="telephone">
                             01769 561094
@@ -90,6 +93,7 @@
                             whitebridgeboardingkennels.co.uk
                         </li>
                     </ul>
+
                 </div>
             </div>
         </div>

@@ -1119,6 +1119,9 @@ cite {
 	text-transform: none;
 	background: url("../images/heading-bg.png") 50% 50% repeat-x;
 }
+.content.contact h3 {
+	background-image: none;
+}
 
 .content h3 span {
 	padding: 0 25px 0 0;
@@ -1484,6 +1487,17 @@ cite {
 	border: none;
 	outline: none;
 	text-decoration: none;
+}
+
+#tabs ul.bullet-info {
+	border-bottom: 0;
+	list-style: square;
+	margin-left: 26px;
+}
+
+#tabs ul.bullet-info li {
+	float:none;
+	padding:10px 0;
 }
 
 #accordion h4 {
