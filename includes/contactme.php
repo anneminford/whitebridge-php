@@ -10,7 +10,7 @@
         </div>
         <!-- Contact end -->
         <!-- Map -->
-        <div id="map" data-stellar-background-ratio=".3">
+        <div id="map" data-stellar-background-ratio=".3" class="animate wow bounceInUp">
         </div>
         <!-- Map end -->
         <!-- Content -->
@@ -77,6 +77,7 @@
                         </div>
 
                     </form>
+                    <h3><span>Our business hours</span></h3>
                                     <?php  
                     include 'openinghours.php';
                 ?>

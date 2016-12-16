@@ -2,7 +2,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4 col3">
-					<a href="services-single.html" title="Dog boarding kennels" class="roundal" id="kennel"></a>
+					<a href="services-single.html" title="Dog boarding kennels" class="roundal animated wow rollIn" id="kennel"></a>
 					<h3>Dog boarding kennels</h3>
 					<p>White Bridge Boarding Kennels offers you a home from home for your dog in 3½ acres of beautiful Devon countryside.</p>
 					<form method="get" action="services-single.html">
@@ -10,7 +10,7 @@
 					</form>
 				</div>
 				<div class="col-md-4 col3">
-					<a href="services-single.html" title="Doggy grooming" class="roundal" id="grooming"></a>
+					<a href="services-single.html" title="Doggy grooming" class="roundal animated wow rollIn" id="grooming"></a>
 					<h3>Day Creche</h3>
 					<p>Our creche days are ideal if you are working and not able to give your dog as much exercise as you would like on certain days.</p>
 					<form method="get" action="services-single.html">
@@ -18,7 +18,7 @@
 					</form>
 				</div>
 				<div class="col-md-4 col3">
-					<a href="services-single.html" title="Adoption centre" class="roundal" id="play"></a>
+					<a href="services-single.html" title="Adoption centre" class="roundal animated wow rollIn" id="play"></a>
 					<h3>Something</h3>
 					<p>Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. Humanitatis per seacula quarta decima et quinta decima.</p>
 					<form method="get" action="services-single.html">
