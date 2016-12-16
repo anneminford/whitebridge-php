@@ -48,7 +48,7 @@
 						</li> -->
 						<li class="purchase-btn">
 							<form method="get" action="index.html">
-								<button type="submit" class="btn btn-default"><a href="contactme" title="Contact us" class="contact-link">Contact us</a></button>
+								<button type="submit" class="btn btn-default"><a href="contact" title="Contact us" class="contact-link">Contact us</a></button>
 							</form>
 						</li>
 					</ul>

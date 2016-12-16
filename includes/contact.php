@@ -1,95 +1,42 @@
-<!-- Contact -->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 centered">
-                    <h3><span>Contact us</span></h3>
-                    <p>We are located in High Bickington on the B3217 at the junction with Taylors Lane, opposite the Libbaton Golf Club</p>
-                    <p>Entrance to the kennels is past the house, down Taylors Lane on the right.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Contact end -->
-        <!-- Map -->
-        <div id="map" data-stellar-background-ratio=".3">
-        </div>
-        <!-- Map end -->
-        <!-- Content -->
-        <div class="container content">
-            <div class="row">
-                <div class="col-md-9">
+<?php
 
+// configure
+$from = 'anneminford@gmail.com'; 
+$sendTo = 'anneminford@gmail.com';
+$subject = 'New message from contact form';
+$fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in email
+$okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
+$errorMessage = 'There was an error while submitting the form. Please try again later';
 
-                    <form id="contact-form" method="post" action="contactme.php" role="form">
+// let's do the sending
 
-                        <div class="messages"></div>
+try
+{
+    $emailText = "You have new message from contact form\n=============================\n";
 
-                        <div class="controls">
+    foreach ($_POST as $key => $value) {
 
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_name">Firstname *</label>
-                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_lastname">Lastname *</label>
-                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_email">Email *</label>
-                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_phone">Phone</label>
-                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="form_message">Message *</label>
-                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <input type="submit" class="btn btn-success btn-send" value="Send message">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <p class="text-muted"><strong>*</strong> These fields are required. Contact form template by <a href="http://bootstrapious.com" target="_blank">Bootstrapious</a>.</p>
-                                </div>
-                            </div>
-                        </div>
+        if (isset($fields[$key])) {
+            $emailText .= "$fields[$key]: $value\n";
+        }
+    }
 
-                    </form>
-</div>
-                <div class="col-md-3">
-                    <ul class="contact-info">
-                        <li class="telephone">
-                            01769 561094
-                        </li>
-                        <li class="address">
-                            High Bickington, Umberleigh, Devon
-                        </li>
-                        <li class="mail">
-                            whitebridgeboardingkennels.co.uk
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    mail($sendTo, $subject, $emailText, "From: " . $from);
+
+    $responseArray = array('type' => 'success', 'message' => $okMessage);
+}
+catch (\Exception $e)
+{
+    $responseArray = array('type' => 'danger', 'message' => $errorMessage);
+}
+
+if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
+    $encoded = json_encode($responseArray);
+    
+    header('Content-Type: application/json');
+    
+    echo $encoded;
+}
+else {
+    echo $responseArray['message'];
+}
