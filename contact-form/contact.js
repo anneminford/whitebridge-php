@@ -4,8 +4,9 @@ $(function () {
 
     $('#contact-form').on('submit', function (e) {
         if (!e.isDefaultPrevented()) {
-            var url = "contactme.php";
-
+            console.log('submit');
+            var url = "http://whitebridge.ozzydog.co.uk/contact-form/contact.php";
+            console.log(url + 'this is the url');
             $.ajax({
                 type: "POST",
                 url: url,

@@ -20,7 +20,7 @@
                     <p class="lead">This is a demo for our tutorial dedicated to crafting working Bootstrap contact form with PHP and AJAX background.</p>
 
 
-                    <form id="contact-form" method="post" action="includes/contactme.php" role="form">
+                    <form id="contact-form" method="post" action="contactme.php" role="form">
 
                         <div class="messages"></div>
 
