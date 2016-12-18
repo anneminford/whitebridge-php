@@ -78,7 +78,8 @@ img {
 	color: #fff;
 	padding: 0;
 	height: auto;
-	font-size: 26px;
+	font-size: 30px;
+	line-height: 24px;
 	transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
@@ -96,7 +97,7 @@ img {
 	text-transform: uppercase;
 	font-size: 16px;
 	font-weight: 600;
-	letter-spacing: 10px;
+	letter-spacing: 6px;
 }
 
 .nav li a {
@@ -371,6 +372,10 @@ img {
 
 #home_carousel  .btn:hover {
 	background: rgba(255, 255, 255, .3);
+}
+
+#home_carousel .btn a {
+	color:#fff;
 }
 
 .carousel-control.right, .carousel-control.left {
@@ -1280,6 +1285,16 @@ cite {
 	margin-bottom: 10px;
 }
 
+.contact-info li.facebook {
+	padding-left:0;
+	background: url("../images/facebook-green.png") 0 50% no-repeat;
+}
+
+.contact-info li.facebook a {
+	background-image:none;
+	background-color: transparent;
+}
+
 .contact-info li.telephone {
 	background: url("../images/telephone.png") 0 50% no-repeat;
 }
@@ -1290,6 +1305,11 @@ cite {
 
 .contact-info li.mail {
 	background: url("../images/mail.png") 0 50% no-repeat;
+}
+
+.openinghours {
+	padding-left:40px;
+	margin-top: 40px;
 }
 
 
@@ -1395,11 +1415,11 @@ cite {
 	color: #65c178;
 }
 
-.footer .contact-info .social {
+.social {
 	overflow: hidden;
 }
 
-.footer .contact-info .social a {
+.social a {
 	display: block;
 	float: left;
 	margin-right: 5px;
@@ -1413,22 +1433,22 @@ cite {
 	-moz-border-radius: 50%;
 }
 
-.footer .contact-info .social a:hover {
+.social a:hover {
 	background-color: #65c178;
 	transform: rotate(360deg);
 	-moz-transform: rotate(360deg);
 	-webkit-transform: rotate(360deg);
 }
 
-.footer .contact-info .social a.facebook {
+.social a.facebook {
 	background-image: url("../images/facebook.png");
 }
 
-.footer .contact-info .social a.pinterest {
+.social a.pinterest {
 	background-image: url("../images/pinterest.png");
 }
 
-.footer .contact-info .social a.twitter {
+.social a.twitter {
 	background-image: url("../images/twitter.png");
 }
 

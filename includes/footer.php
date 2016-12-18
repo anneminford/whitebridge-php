@@ -3,13 +3,13 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<h6>You may need this</h6>
+						<h6>Quick links</h6>
 						<ul>
 							<li><a href="home" title="">Home</a></li>
-							<li><a href="contact" title="">Contact us</a></li>
+							<li><a href="contactmr" title="">Contact us</a></li>
 							<li><a href="#" title="">FAQ</a></li>
 							<li><a href="#" title="">Terms &amp; conditions</a></li>
-							<li><a href="#" title="">Privacy policy</a></li>
+							<!-- <li><a href="#" title="">Privacy policy</a></li> -->
 						</ul>
 					</div>
 <!-- 					<div class="col-md-4">
@@ -25,7 +25,7 @@
 					</div> -->
 					<div class="col-md-6 contact-info">
 						<h6>Keep in touch</h6>
-						<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+						<p>Contact Becky, Paul or Jacqui to discuss your boarding or day creche needs.</p>
 						<p class="social">
 							<a href="#" class="facebook"></a> <a href="#" class="pinterest"></a> <a href="#" class="twitter"></a>
 						</p>

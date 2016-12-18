@@ -12,20 +12,16 @@
 					<img src="images/2.png" alt="" />
 					<div class="carousel-caption">
 						<h2>Welcome to White Bridge Boarding Kennels</h2>
-					    <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum.</p>
-					    <form method="get" action="index.html">
-					    	<button type="submit" class="btn btn-lg btn-default">Learn more</button>
-					    	</form>
+					    <p>Becky, Paul &amp; Jacqui welcome you to White Bridge Dog Boarding Kennels. We are situated in North Devon about 8 miles from Barnstaple, South Molton and Torrington. Dogs have fun and exercise throughout the day in secure “‘play paddocks” set in 3½ acre grounds. We offer day creche and overnight boarding.</p>
+					    	<button type="submit" class="btn btn-lg btn-default"><a href="about">Learn more</a></button>
 					</div>
 				</div>
 				<div class="item">
 					<img src="images/3.png" alt="" />
 					<div class="carousel-caption">
-						<h2>Lorem ipsum delor sit amet</h2>
-					    <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum.</p>
-					    <form method="get" action="index.html">
-					    	<button type="submit" class="btn btn-lg btn-default">Learn more</button>
-					    </form>
+						<h2>Welcome to White Bridge Boarding Kennels</h2>
+					    <p>Becky, Paul &amp; Jacqui welcome you to White Bridge Dog Boarding Kennels. We are situated in North Devon about 8 miles from Barnstaple, South Molton and Torrington. Dogs have fun and exercise throughout the day in secure 'play paddocks' set in 3½ acre grounds. We offer day creche and overnight boarding.</p>
+					    	<button type="submit" class="btn btn-lg btn-default"><a href="about">Learn more</a></button>
 					</div>
 				</div>
 			</div>

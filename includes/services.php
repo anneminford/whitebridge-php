@@ -10,7 +10,7 @@
 					</form>
 				</div>
 				<div class="col-md-4 col3">
-					<a href="services-single.html" title="Doggy grooming" class="roundal animated wow rollIn" id="grooming"></a>
+					<a href="services-single.html" title="Doggy grooming" class="roundal animated wow rollIn" id="walking"></a>
 					<h3>Day Creche</h3>
 					<p>Our creche days are ideal if you are working and not able to give your dog as much exercise as you would like on certain days.</p>
 					<form method="get" action="services-single.html">

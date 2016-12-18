@@ -3,8 +3,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 centered">
-					<h3><span>Dog boarding costs</span></h3>
-					<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+					<h3><span>Day Creche</span></h3>
+					<p>Fun safe and secure day care at Whitebridge for dogs of all sizes, young and old.</p>
 				</div>
 			</div>
 		</div>
@@ -74,8 +74,8 @@
 			<div class="row">
 				<div class="col-md-6">
 					<h3><span>About our service</span></h3>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-					<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.</p>
+					<p>Our creche days are ideal if you are working and not able to give your dog as much exercise as you would like on certain days or you may want to do your shopping, have a game of golf or go fishing etc. Just drop your dog off for the day and we will keep him happy, entertained and exercised, ready for you to take home tired and contented. The atmosphere is fun, safe and social, and is suitable for big and small, young and old. </p>
+					<p>You and your dog are more than welcome to come and visit our facilities before starting at creche. </p>
 				</div>
 				<div class="col-md-6">
 					<h3><span>What to expect</span></h3>

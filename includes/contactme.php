@@ -77,13 +77,10 @@
                         </div>
 
                     </form>
-                    <h3><span>Our business hours</span></h3>
-                                    <?php  
-                    include 'openinghours.php';
-                ?>
+
 </div>
                 <div class="col-md-6">
-                    <ul class="contact-info">
+                    <ul class="contact-info social">
                         <li class="telephone">
                             01769 561094
                         </li>
@@ -91,9 +88,15 @@
                             High Bickington, Umberleigh, Devon
                         </li>
                         <li class="mail">
-                            whitebridgeboardingkennels.co.uk
-                        </li>
+                            whitebridgeboardingkennels.co.uk</li>
+                        <li class="facebook"><a href="#" class="facebook"></a> Facebook</li>
                     </ul>
+                    <div class="openinghours">
+                                        <h3><span>Our business hours</span></h3>
+                                    <?php  
+                    include 'openinghours.php';
+                ?>
+                    </div>
 
                 </div>
             </div>
