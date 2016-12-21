@@ -74,30 +74,32 @@
 			<div class="row">
 				<div class="col-md-6">
 					<h3><span>About our service</span></h3>
-					<p>Our creche days are ideal if you are working and not able to give your dog as much exercise as you would like on certain days or you may want to do your shopping, have a game of golf or go fishing etc. Just drop your dog off for the day and we will keep him happy, entertained and exercised, ready for you to take home tired and contented. The atmosphere is fun, safe and social, and is suitable for big and small, young and old. </p>
+					<p>Our creche days are ideal if you are working and not able to give your dog as much exercise as you would like on certain days. Just drop your dog off for the day and we will keep him happy, entertained and exercised, ready for you to take home tired and contented. The atmosphere is fun, safe and social, and is suitable for big and small, young and old. </p>
 					<p>You and your dog are more than welcome to come and visit our facilities before starting at creche. </p>
 				</div>
 				<div class="col-md-6">
 					<h3><span>What to expect</span></h3>
 					<div id="accordion">
-						<h4>Food</h4>
+						<h4>Drop off and collection times</h4>
 						<div>
-							<p>IS THIS CORRECT Breakfast and dinner are included in the price. We use a good quality dry food, however owners are welcome to supply their own food if that is preferred.</p>
+							<p>8am - 10am and 4pm - 5pm<br />
+Alternative times may be arranged with prior notice.</p>
 						</div>
-						<h4>Activity</h4>
+						<h4>Playtime &amp; exercise</h4>
 						<div>
-							<p>PLAYTIME SCHEDULE IN HERE</p>
+							<p>We have 5 separate paddocks where they are exercised and socialised in smaller groups dependant on their nature or size. Dogs can alse be exercised individually if that is what they prefer.</p>
 						</div>
 						<h4>Kennels</h4>
 						<div>
-							<p>DESCRIPTION OF KENNEL BEDDING, HEATED, CLEANED</p>
+							<p>Each guest kennel has lighting and thermostatically controlled heating within the bed area and a separate run. Your dog's favourite toy, bedding or blanket are welcome to help them feel at home.</p>
 						</div>
 						<h4>Booking Terms</h4>
 						<div>
-							<p>DEPOSIT? CANCELLATIONS?</p>
+						<p>Vaccinations must be up to date and card shown on arrival<br />Payment methods: Cash, cheque, BACS and major debit and credit cards.
+						<br />A deposit will be required for Bank holidays and bookings for July and August.
+						<br />50% extra charged for Christmas Day, Boxing Day and New Year's Day. </p>
 						</div>
 					</div>
-				</div>
 			</div>
 		</div>
 		<!-- Content end -->

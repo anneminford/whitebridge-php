@@ -20,11 +20,14 @@
 						<li <?=echoActiveClassIfRequestMatches("boarding")?>>
 							<a href="boarding" title="boarding"><span data-hover="Boarding">Boarding</span></a>
 						</li>
-						<li <?=echoActiveClassIfRequestMatches("day-creche")?>>
-							<a href="day-creche" title="day-creche"><span data-hover="day-creche">day-creche</span></a>
+						<li <?=echoActiveClassIfRequestMatches("daycreche")?>>
+							<a href="day-creche" title="day-crèche"><span data-hover="day-creche">day crèche</span></a>
 						</li>
 						<li <?=echoActiveClassIfRequestMatches("about")?>>
 							<a href="about" title="About us"><span data-hover="About us">About us</span></a>
+						</li>
+						<li <?=echoActiveClassIfRequestMatches("contactme")?> class="hidden-md hidden-lg hidden-sm">
+							<a href="contactme" title="Contact us"><span data-hover="Contact us">CONTACT</span></a>
 						</li>
 <!-- 						<li class="dropdown">
 							<a href="services.html" class="dropdown-toggle" data-toggle="dropdown"><span data-hover="Services">Services</span> <b class="caret"></b></a>
@@ -50,7 +53,7 @@
 							<a href="contact.html" title="Contact us"><span data-hover="Contact us">Contact us</span></a>
 						</li> -->
 						<li class="purchase-btn">
-							<form method="get" action="index.html">
+							<form method="get" action="contactme">
 								<button type="submit" class="btn btn-default"><a href="contactme" title="Contact us" class="contact-link">Contact us</a></button>
 							</form>
 						</li>

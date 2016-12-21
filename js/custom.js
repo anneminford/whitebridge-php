@@ -55,11 +55,30 @@ $(function() {
 	if ($("#tabs").length > 0){
 		$("#tabs").tabs();
 	}
+
+	$('#footer-link-1').click(function() { // bind click event to link
+		$( "#tabs" ).tabs({ active: 3 });
+		return false;
+	})
+	$('#link2').click(function() { // bind click event to link
+		$( "#tabs" ).tabs({ active: 1 });
+		return false;
+	})
+	$('#link3').click(function() { // bind click event to link
+		$( "#tabs" ).tabs({ active: 2 });
+		return false;
+	})
+
 	
 	if ($("#accordion").length > 0){
-		$("#accordion").accordion();
+		$("#accordion").accordion({
+			// heightStyle: "content"
+		});
 	}
-	
+
+	http://localhost:81/whitebridge-php/contactme#tabs-3
+
+
 	if ($("#map").length > 0){
 		$('#map').gmap3({
 			map: {

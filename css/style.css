@@ -102,7 +102,7 @@ img {
 
 .nav li a {
 	font-family: 'Cabin', sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
 	position: relative;
@@ -947,7 +947,7 @@ img {
 
 .testimonials p,
 .testimonials blockquote {
-	font-size: 22px;
+	font-size: 18px;
 	color: #fff;
 	margin: 0;
 }
@@ -1125,7 +1125,7 @@ cite {
 	background: url("../images/heading-bg.png") 50% 50% repeat-x;
 }
 .content.contact h3 {
-	background-image: none;
+	/*background-image: none;*/
 }
 
 .content h3 span {
@@ -1274,20 +1274,24 @@ cite {
 	-webkit-box-shadow: none;
 }
 
-.contact-info {
+.contact-info, .bullet-info.contact-info li {
 	margin: 0;
 	list-style: none;
 }
 
-.contact-info li {
+#tabs ul.contact-info {
+	height: auto;
+}
+
+.contact-info li,
+#tabs ul.bullet-info.contact-info li {
 	font-size: 16px;
 	padding: 10px 0 10px 50px;
 	margin-bottom: 10px;
 }
 
-.contact-info li.facebook {
+#tabs ul.bullet-info.contact-info li.facebook {
 	padding-left:0;
-	background: url("../images/facebook-green.png") 0 50% no-repeat;
 }
 
 .contact-info li.facebook a {
@@ -1425,7 +1429,7 @@ cite {
 	margin-right: 5px;
 	height: 50px;
 	width: 50px;
-	background: #2a3034;
+	background: #65c178;
 	background-position: center center;
 	background-repeat: no-repeat;
 	border-radius: 50%;
@@ -1434,7 +1438,7 @@ cite {
 }
 
 .social a:hover {
-	background-color: #65c178;
+	background-color: #2a3034;
 	transform: rotate(360deg);
 	-moz-transform: rotate(360deg);
 	-webkit-transform: rotate(360deg);
@@ -1910,6 +1914,13 @@ cite {
 		padding: 0;
 		margin-top: 20px;
 	}
-	
+
+	.openinghours {
+    	padding-left: 0; 
+	}
+
+	h3.contact {
+		margin-top:30px;
+	}
 }
   
