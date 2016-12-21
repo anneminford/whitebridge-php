@@ -41,4 +41,4 @@ Footer -->
 		</div>
 	</div>
 </div>
-	<!-- Footer end
+	<!-- Footer end -->

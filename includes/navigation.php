@@ -21,7 +21,7 @@
 							<a href="boarding" title="boarding"><span data-hover="Boarding">Boarding</span></a>
 						</li>
 						<li <?=echoActiveClassIfRequestMatches("daycreche")?>>
-							<a href="day-creche" title="day-crèche"><span data-hover="day-creche">day crèche</span></a>
+							<a href="day-creche" title="day crèche"><span data-hover="Day crèche">Day crèche</span></a>
 						</li>
 						<li <?=echoActiveClassIfRequestMatches("about")?>>
 							<a href="about" title="About us"><span data-hover="About us">About us</span></a>
