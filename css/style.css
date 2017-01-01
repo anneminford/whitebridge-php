@@ -102,11 +102,11 @@ img {
 
 .nav li a {
 	font-family: 'Cabin', sans-serif;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 700;
+	line-height: 26px;
 	text-transform: uppercase;
-	position: relative;
-	
+	position: relative;	
 	-webkit-animation: Navbar 1.5s normal; /* Safari 4+ */
 	-moz-animation:    Navbar 1.5s normal; /* Fx 5+ */
 	-o-animation:      Navbar 1.5s normal; /* Opera 12+ */
@@ -132,6 +132,7 @@ img {
 	-webkit-transition: -webkit-transform 0.3s;
 	-moz-transition: -moz-transform 0.3s;
 	transition: transform 0.3s;
+	/*text-shadow: 1px */2px #000;
 }
 
 .nav li a span::before {
@@ -153,6 +154,7 @@ img {
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
 	color: #65c178;
 	background: none;
+	/*text-shadow: 1px 1px #000;*/
 }
 
 .navbar-nav {
@@ -325,6 +327,7 @@ img {
 	-o-animation:      SlideTitle 1.5s normal; /* Opera 12+ */
 	animation:         SlideTitle 1.5s normal; /* IE 10+ */
 	position: relative;
+	text-shadow: 2px 1px #000;
 }
 
 #home_carousel .carousel-caption p {
@@ -337,6 +340,7 @@ img {
 	-o-animation:      SlideDesc 1.5s normal; /* Opera 12+ */
 	animation:         SlideDesc 1.5s normal; /* IE 10+ */
 	position: relative;
+	text-shadow: 2px 1px #000;
 }
 
 #home_carousel img {
@@ -1763,6 +1767,7 @@ cite {
 	
 	#home_carousel .carousel-caption p {
 		font-size: 18px;
+		text-shadow: 1px 2px #000;
 	}
 	
 	#c-carousel .pager {

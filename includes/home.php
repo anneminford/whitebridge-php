@@ -9,7 +9,7 @@
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner">
 				<div class="item active">
-					<img src="images/2.png" alt="" />
+					<img src="images/home-1.jpg" alt="Happy dog at Whitebridge" />
 					<div class="carousel-caption">
 						<h2>Welcome to White Bridge Boarding Kennels</h2>
 					    <p>Becky, Paul &amp; Jacqui welcome you to White Bridge Dog Boarding Kennels, situated in North Devon about 8 miles from Barnstaple, South Molton and Torrington. Dogs enjoy fun and exercise throughout the day in secure paddocks set in 3½ acre grounds. We offer day crèche and overnight boarding.</p>
@@ -17,7 +17,7 @@
 					</div>
 				</div>
 				<div class="item">
-					<img src="images/3.png" alt="" />
+					<img src="images/home-2.jpg" alt="Happy dog at White Bridge" />
 					<div class="carousel-caption">
 						<h2>Welcome to White Bridge Boarding Kennels</h2>
 					    <p>Becky, Paul &amp; Jacqui welcome you to White Bridge Dog Boarding Kennels, situated in North Devon about 8 miles from Barnstaple, South Molton and Torrington. Dogs enjoy fun and exercise throughout the day in secure paddocks set in 3½ acre grounds. We offer day crèche and overnight boarding.</p>

@@ -17,7 +17,7 @@
 					</div>
 					<div>
 						<a href="images/dog-2.png" title="Dog" data-hover="PICTURE OF KENNEL BLOCK" data-toggle="lightbox" class="lightbox" data-title="Title in here" data-footer="Brief description in here">
-							<img src="images/dog-2.png" alt="Dog" />
+							<img src="images/dog-2.jpg" alt="Dog" />
 						</a>
 					</div>
 					<div>
@@ -32,7 +32,7 @@
 					</div>
 					<div>
 						<a href="images/dog-2.png" title="Dog" data-hover="PICTURE OF KENNEL BLOCK" data-toggle="lightbox" class="lightbox" data-title="Title in here" data-footer="Brief description in here">
-							<img src="images/dog-2.png" alt="Dog" />
+							<img src="images/dog-2.jpg" alt="Dog" />
 						</a>
 					</div>
 					<div>
